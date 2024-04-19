@@ -300,8 +300,11 @@ section{
 
 .img-box img{
     width:100%;
-    max-width:63%;
+    max-width:95%;
     height:auto;
+    position:relative;
+    right:1rem;
+    bottom:5rem;
 }
 
 .liquid-shape{
@@ -914,8 +917,11 @@ footer a i{
     }
     .img-box img{
         width:100%;
-        max-width:55%;
+        max-width:75%;
         height:auto;
+        position:relative;
+        top:0.1px;
+        right:1rem;
     }
     .liquid-shape{
         width:79%;
