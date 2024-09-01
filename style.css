@@ -299,12 +299,13 @@ section{
 }
 
 .img-box img{
-    width:100%;
-    max-width:95%;
+    width:90%;
+    max-width:100%;
     height:auto;
     position:relative;
-    right:1rem;
-    bottom:5rem;
+    right:-3rem;
+    bottom:4rem;
+    border-radius: 0 0 300px 120px;
 }
 
 .liquid-shape{
@@ -337,7 +338,7 @@ section{
 }
 
 .about .img-about img{
-    max-width:350px;
+    max-width:450px;
     height:auto;
     border-radius:20%;
 }
@@ -384,7 +385,7 @@ section{
 }
 
 .info-about1{
-    left:-10%;
+    left:5%;
     top:45%;
 }
 
@@ -469,24 +470,24 @@ section{
     box-shadow:var(--neon-box-shadow);
 }
 
-.skill-bar .bar .html{
+.skill-bar .bar .frontend{
     width:90%;
-    animation:html 2s;
+    animation:frontend 2s;
 }
 
-.skill-bar .bar .css{
-    width:90%;
-    animation:css 3s;
+.skill-bar .bar .backend{
+    width:70%;
+    animation:backend 3s;
 }
 
-.skill-bar .bar .javascript{
-    width:85%;
-    animation:javascript 4s;
-}
-
-.skill-bar .bar .figma{
+.skill-bar .bar .dsa{
     width:80%;
-    animation:figma 5s;
+    animation:dsa 4s;
+}
+
+.skill-bar .bar .designing{
+    width:85%;
+    animation:designing 5s;
 }
 
 /* skills right */
@@ -596,7 +597,7 @@ section{
 }
 
 .port-box{
-    width:48%;
+    width:30%;
     height:80%;
     border:2px solid var(--hover-color);
     box-shadow:var(--neon-box-shadow);
@@ -627,7 +628,7 @@ section{
     flex-direction:column;
     text-align:center;
     transition:0.5s;
-    padding:0 2rem;
+    padding:0.2rem 1rem;
 }
 
 .port-box:hover .port-content{
@@ -639,13 +640,13 @@ section{
 }
 
 .port-content h3{
-    font-size:1.5rem;
+    font-size:1rem;
     font-weight:600;
 }
 
 .port-content p{
-    font-size:0.8rem;
-    margin:5px 0 15px 0;
+    font-size:0.7rem;
+    margin:5px 0 5px 0;
 }
 
 .port-content a{
@@ -654,8 +655,8 @@ section{
     display:inline-flex;
     justify-content:center;
     align-items:center;
-    width:50px;
-    height:50px;
+    width:35px;
+    height:35px;
     border:1px solid var(--hover-color);
     outline:2px solid #fff;
 }
@@ -782,7 +783,7 @@ footer a i{
     }
 }
 
-@keyframes html{
+@keyframes frontend{
     0%{
         width:0%;
     }
@@ -791,30 +792,30 @@ footer a i{
     }
 }
 
-@keyframes css{
+@keyframes backend{
     0%{
         width:0%;
     }
     100%{
-        width:90%;
+        width:70%;
     }
 }
 
-@keyframes javascript{
-    0%{
-        width:0%;
-    }
-    100%{
-        width:85%;
-    }
-}
-
-@keyframes figma{
+@keyframes dsa{
     0%{
         width:0%;
     }
     100%{
         width:80%;
+    }
+}
+
+@keyframes designing{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
     }
 }
 
@@ -870,6 +871,10 @@ footer a i{
     .social-icons{
         margin-top:2rem;
     }
+    .img-box img{
+        right:-2.3rem;
+        bottom:3rem;
+    }
     .about .img-about img{
         max-width:250px;
         height:auto;
@@ -920,8 +925,8 @@ footer a i{
         max-width:75%;
         height:auto;
         position:relative;
-        top:0.1px;
-        right:1rem;
+        right:-3rem;
+        bottom: 2rem;
     }
     .liquid-shape{
         width:79%;
